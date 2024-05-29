@@ -8,9 +8,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./src/css/style.css" />
-    <title>Web Design Mastery | Camp</title>
+    <title>Hydrolink</title>
   </head>
   <body>
+    <!-- Navigation -->
     <nav>
       <div class="nav__header">
         <div class="nav__logo">
@@ -22,18 +23,21 @@
       </div>
       <ul class="nav__links" id="nav-links">
         <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre Nós</a></li>
+        <li><a href="#logo">Sobre Nós</a></li>
         <li><a href="#">Contato</a></li>
       </ul>
       <div class="nav__btns">
         <button class="btn"><i class="ri-search-line"></i></button>
-        <button class="btn"><i class="ri-login-circle-line"></i></button>
+        <button class="btnlog"><i class="ri-login-circle-line"></i></button>
       </div>
     </nav>
+
+    <!-- Home -->
+
     <div class="container">
       <div class="container__left">
         <h1>Bem-vindo</h1>
-        <h1>Á Hydrolink</h1>
+        <h1>À Hydrolink</h1>
         <div class="container__btn">
           <button class="btn">Saiba Mais</button>
         </div>
@@ -69,6 +73,135 @@
       </div>
     </div>
 
+    <div class="logo" id="logo">
+      <img src="./src/assets/HydroLink.png" alt="" class=".logo" />
+    </div>
+
+    <!-- Sections -->
+
+    <div class="container__section">
+      <h2>O Problema que a Solução Irá Resolver</h2>
+      <p>
+        A Hydrolink visa resolver o problema crítico da falta de monitoramento
+        eficiente da qualidade da água em ambientes oceânicos. Sem dados
+        precisos e em tempo real, é difícil identificar e reagir rapidamente a
+        problemas como poluição, mudanças de pH e variações no nível da água,
+        que podem ter impactos devastadores nos ecossistemas marinhos e nas
+        comunidades que dependem deles.
+      </p>
+    </div>
+
+    <div class="container__section">
+      <h2>Qual a Tecnologia que Pretendemos Utilizar</h2>
+      <p>
+        Nossa solução utiliza a plataforma Arduino combinada com uma variedade
+        de sensores, incluindo sensores ultrassônicos, de pH e de temperatura.
+        Esta combinação permite a criação de dispositivos acessíveis e
+        eficientes para a captura de dados em tempo real sobre a qualidade da
+        água. Utilizamos também displays LCD e LEDs para a visualização
+        instantânea dos dados coletados.
+      </p>
+
+      <img src="./src/assets/arduino.png" alt="" />
+    </div>
+
+    <div class="container__section">
+      <h2>Quais os Objetivos Pretendemos Alcançar</h2>
+      <p>
+        Proporcionar uma solução de monitoramento da qualidade da água que seja
+        acessível e fácil de usar.
+      </p>
+      <p>
+        Contribuir para a conservação dos recursos hídricos e dos ecossistemas
+        marinhos.
+      </p>
+      <p>
+        Capacitar pesquisadores e comunidades locais com dados precisos para a
+        tomada de decisões informadas.
+      </p>
+      <p>
+        Promover a conscientização sobre a importância da preservação dos
+        ambientes aquáticos.
+      </p>
+    </div>
+
+    <div class="container__section">
+      <h2>Qual o Público que Será Impactado</h2>
+      <p>
+        Pesquisadores e cientistas ambientais que necessitam de dados precisos
+        para estudos e análises.
+      </p>
+      <p>Organizações não governamentais focadas na conservação marinha.</p>
+      <p>
+        Comunidades costeiras que dependem diretamente da qualidade da água para
+        sua subsistência.
+      </p>
+      <p>
+        Estudantes e educadores interessados em projetos de ciência ambiental.
+      </p>
+    </div>
+
+    <div class="container__section">
+      <h2>Quais os Benefícios Oferecidos pela Solução</h2>
+      <p>Monitoramento contínuo e em tempo real da qualidade da água.</p>
+      <p>Detecção precoce de poluentes e alterações nas condições da água.</p>
+      <p>Facilitação de ações rápidas para mitigar impactos ambientais.</p>
+      <p>
+        Educação e conscientização sobre a importância da preservação dos
+        recursos hídricos.
+      </p>
+    </div>
+
+    <div class="container__section">
+      <h2>
+        Como essa Solução Pode Ajudar no Dia a Dia das Pessoas que Irão
+        Utilizá-la
+      </h2>
+      <p>
+        Para as comunidades costeiras, a solução da Hydrolink pode significar a
+        diferença entre a perda e a conservação de suas fontes de água,
+        essenciais para a pesca e outras atividades econômicas. Pesquisadores
+        podem usar os dados coletados para realizar estudos mais detalhados e
+        informar políticas de conservação. Para ONGs, nossa tecnologia fornece
+        uma ferramenta crucial para monitorar áreas de risco e planejar ações de
+        preservação mais eficazes. No ambiente educacional, nossos dispositivos
+        podem ser usados como ferramentas práticas para ensinar sobre ciências
+        ambientais e sustentabilidade.
+      </p>
+    </div>
+
+    <!-- Login -->
+
+    <div id="popup" class="popup">
+      <div class="container__login">
+        <div class="heading">LOGIN</div>
+        <form action="" class="form">
+          <input
+            required=""
+            class="input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="E-mail"
+          />
+          <input
+            required=""
+            class="input"
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Senha"
+          />
+          <span class="forgot-password"
+            ><a href="#">Esqueceu a senha ?</a></span
+          >
+          <input class="login-button" type="submit" value="Login" />
+          <button class="close-btn">Fechar</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Footer -->
     <footer>
       <p>&copy; 2024 Hydrolink. Todos Direitos Reservados.</p>
     </footer>
