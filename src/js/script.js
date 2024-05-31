@@ -127,6 +127,17 @@ document.addEventListener("DOMContentLoaded", function () {
     if (username === correctUsername && password === correctPassword) {
       alert('Login bem-sucedido!');
       closePopup();
+
+      const btnlogin = document.querySelector('.btnlog');
+      const btnlogout = document.createElement('buttonlogout');
+      btnlogout.innerHTML = '<i class="ri-logout-circle-line"></i>';
+      btnlogout.classList.add('btnlogout');
+      btnlogin.replaceWith(btnlogout);
+
+      btnlogout.addEventListener('click', function () {
+        btnlogout.replaceWith(btnlogin);
+        alert('Logout bem-sucedido!');
+      });
     } else {
       alert('Usuário ou senha incorretos.');
     }
