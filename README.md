@@ -16,9 +16,9 @@ Este projeto foi concebido para a disciplina de Desenvolvimento Web, visando a c
 
 ## Como acessar
 
-Para acessar o site clique no link: https://RafaelJango.github.io <br>
+Para acessar o site clique no link: https://rafaeljango.github.io/Hydrolink-Landing-Page/ <br>
 
 Para testar a Manipulação do DOM vá para a pagina de login e use essas informações:
-<br> usuário: admin@email.com <br>senha: 123321
+<br> Usuário: admin@email.com <br>Senha: 123321
 
 O botão de login será alterado!
