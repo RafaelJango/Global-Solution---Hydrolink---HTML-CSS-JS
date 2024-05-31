@@ -19,6 +19,6 @@ Este projeto foi concebido para a disciplina de Desenvolvimento Web, visando a c
 Para acessar o site clique no link: https://RafaelJango.github.io <br>
 
 Para testar a Manipulação do DOM vá para a pagina de login e use essas informações:
-<br> usuário: admin@email.com <br>senha: admin123
+<br> usuário: admin@email.com <br>senha: 123321
 
 O botão de login será alterado!
